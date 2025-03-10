@@ -1,5 +1,5 @@
 from .data import pieces, speeds
-from random import choice
+from random import shuffle
 
 class tetrisGame:
 	def __init__(self):
@@ -37,7 +37,7 @@ class tetrisGame:
 		
 	def refill_bag(self):
 		next_pieces = [item for item in pieces]
-		random.shuffle(next_pieces)
+		shuffle(next_pieces)
 		self.bag += next_pieces
 		
 	def set_speed(self):
