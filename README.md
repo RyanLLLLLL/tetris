@@ -4,7 +4,7 @@
 - To start, import with "from tetris import tetrisGame".
 
 - To setup a game, assign "tetrisGame()" as a variable to access later.
-- example: game = tetrisGame()
+	- example: game = tetrisGame()
 
 - Call "game.update()" 60 times per second
 - At any time, call:
