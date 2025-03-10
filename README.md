@@ -1,5 +1,5 @@
 # tetris-module
-This module handles the game logic for a tetris game on a classic 10 x 20 grid.
+##This module handles the game logic for a tetris game on a classic 10 x 20 grid.
 
 - To start, import with "from tetris import tetrisGame".
 
