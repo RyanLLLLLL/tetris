@@ -1,5 +1,5 @@
 from .data import pieces, speeds
-import random
+from random import choice
 
 class tetrisGame:
 	def __init__(self):
