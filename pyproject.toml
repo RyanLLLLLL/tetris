@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tetris"
-version = "1.0.0"
-description = "A Tetris module I made for myself, anyone is free to use"
+version = "1.0.1"
+description = "A Python Tetris module I made for myself, anyone is free to use"
 authors = [{ name = "Ryan Lucido", email = "rjlucido12@gmail.com" }]
