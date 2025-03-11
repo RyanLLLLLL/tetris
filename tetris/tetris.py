@@ -167,7 +167,7 @@ class tetrisGame:
 							self.grid[x][y]['color'] = (0.2, 0.2, 0.2)
 						lines_cleared += 1
 						self.lines += 1
-						if lines_cleared % 10 == 0:
+						if self.lines % 10 == 0:
 							self.level += 1
 							self.set_speed()
 						for j in range(y, 20-1):
