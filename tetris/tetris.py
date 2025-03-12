@@ -138,12 +138,12 @@ class tetrisGame:
 		else:
 			self.piece['rotation'] = last_rotation		
 					
-	def up(self):
+	def hard_drop(self):
 		while True:
-			if self.down():
+			if self.soft_drop():
 				break
 			
-	def down(self):
+	def soft_drop(self):
 		self.tick_cooldown = 0
 		if not self.move_piece(0, -1):
 			for pos in self.piece['cells']:
@@ -194,4 +194,4 @@ class tetrisGame:
 	def update(self):
 		if not self.game_over: self.tick_cooldown += 1
 		if self.tick_cooldown >= self.tick_speed:
-			self.down()
+			self.soft_drop()
