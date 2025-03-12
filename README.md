@@ -9,8 +9,8 @@
 - At any time, call:
 	- "game.left()" to move piece left
 	- "game.right()" to move piece right
-	- "game.down()" to move piece down once
-	- "game.up()" to move piece down to bottom
+	- "game.soft_drop()" to soft drop (move piece down once)
+	- "game.hard_drop()" to hard drop (move piece down to bottom)
 	- "game.rotate()" to rotate piece right
 	
 - The use these variables to get info about the game:
