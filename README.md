@@ -14,7 +14,7 @@
 	- "game.rotate()" to rotate piece right
 	
 - Use these variables to get info about the game:
-	- "game.grid[x][y]['color']" to get the color of a piece at (x, y) in a (r, g, b) format
+	- "game.grid[x][y]['color']" to get the color of a piece at (x, y) in a (r, g, b) format with each color value going from 0 to 1
 	- "game.score" to get a int of the current score
 	- "game.lines" to get a int of the number of lines cleared
 	- "game.level" to get a int of the current level
